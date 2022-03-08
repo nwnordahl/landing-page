@@ -1,0 +1,38 @@
+/* Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  background-color: #1f2937;
+  padding: 16px 232px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header ul {
+  display: flex;
+  gap: 24px;
+}
+
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
