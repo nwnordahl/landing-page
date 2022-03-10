@@ -63,7 +63,6 @@ a {
 }
 
 .section-1 .section-1-left .button {
-  text-decoration: none;
   background-color: #3882f6;
   padding: 8px 36px;
   border-radius: 8px;
@@ -153,6 +152,44 @@ a {
   font-weight: bold;
   font-size: 24px;
   margin-right: 30px;
+}
+
+/* Section 4 */
+.section-4 {
+  padding: 96px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section-4 .sign-up-box {
+  width: 1000px;
+  background-color: #3882f6;
+  padding: 48px 36px;
+  border-radius: 9px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-4 .sign-up-box .sign-up-text h3 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.section-4 .sign-up-box .sign-up-text p {
+  color: #ddd;
+  font-size: 18px;
+}
+
+.section-4 .sign-up-box .sign-up-button {
+  background-color: #3882f6;
+  padding: 6px 32px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f9faf8;
 }
 
 /* Footer */
